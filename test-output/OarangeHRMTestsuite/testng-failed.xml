@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OarangeHRMTestsuite]">
+  <parameter name="Adminuid" value="Admin"/>
+  <parameter name="Adminupwd" value="Qedge123!@#"/>
+  <test name="Check_Adminlogin(failed)">
+    <parameter name="Adminuid" value="Admin"/>
+    <parameter name="Adminupwd" value="Qedge123!@#"/>
+    <classes>
+      <class name="OrangeHRM_testcase.Admin_login">
+        <methods>
+          <include name="launchApp"/>
+          <include name="CHeckadmin_login"/>
+        </methods>
+      </class> <!-- OrangeHRM_testcase.Admin_login -->
+    </classes>
+  </test> <!-- Check_Adminlogin(failed) -->
+</suite> <!-- Failed suite [OarangeHRMTestsuite] -->

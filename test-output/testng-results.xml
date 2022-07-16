@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OarangeHRMTestsuite" duration-ms="8442" started-at="2022-07-15T04:57:28Z" finished-at="2022-07-15T04:57:36Z">
+    <groups>
+    </groups>
+    <test name="Check_Adminlogin" duration-ms="8442" started-at="2022-07-15T04:57:28Z" finished-at="2022-07-15T04:57:36Z">
+      <class name="OrangeHRM_testcase.Admin_login">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:OrangeHRM_testcase.Admin_login@23ceabc1]" name="launchApp" is-config="true" duration-ms="4694" started-at="2022-07-15T10:27:28Z" finished-at="2022-07-15T10:27:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="CHeckadmin_login(java.lang.String, java.lang.String)[pri:0, instance:OrangeHRM_testcase.Admin_login@23ceabc1]" name="CHeckadmin_login" duration-ms="3716" started-at="2022-07-15T10:27:32Z" finished-at="2022-07-15T10:27:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CHeckadmin_login -->
+      </class> <!-- OrangeHRM_testcase.Admin_login -->
+    </test> <!-- Check_Adminlogin -->
+  </suite> <!-- OarangeHRMTestsuite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<suite  name= "OarangeHRMTestsuite">
+<test   name="Check_Adminlogin">
+<parameter  name="Adminuid" value="Admin"></parameter>
+<parameter  name="Adminupwd" value="Qedge123!@#"></parameter>
+
+<classes>
+<class  name="OrangeHRM_testcase.Admin_login"></class>
+</classes>
+</test>
+
+
+
+
+
+</suite>
